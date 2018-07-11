@@ -11,7 +11,6 @@
  
  final int OSC_SEND_PORT = 7010; // set the port to send OSC out on here 
 
- String info = "";
  String ErrorString = "";
  boolean sensorRunning = false;
  
@@ -46,10 +45,15 @@
   oscP5 = new OscP5(this,7011);
   // create remote location for OSC
   myRemoteLocation = new NetAddress("127.0.0.1", OSC_SEND_PORT); // set ip and port to send to here
-  if (!oscP5.ip().equals("192.168.1.200")){
+  
+  if (!oscP5.ip().equals("192.168.1.200")){ // detect ip adress OBS: currently not working, showing wrong adress
     ErrorString = "wrong ip " + oscP5.ip();
   }
   
+   
+  setupGUI(); // for setting up GUI
+  
+  rectMode(CENTER);
   
  }
 

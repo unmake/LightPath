@@ -48,6 +48,6 @@ class PIR_Controller{
     }
     fill(255, 0, 0);
     if (state) fill(0, 255, 0);
-    rect(x+300, y-9, 10, 10);
+    rect(x+300, y-5, 20, 20);
   }
 }
