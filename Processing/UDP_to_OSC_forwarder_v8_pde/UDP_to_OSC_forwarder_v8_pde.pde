@@ -26,7 +26,7 @@
      // IP ADRESS
      // PORTS (first: remote/send, second: local/listen) 
      // NR OF SENSORS CONNECTED 
-  controllers[0] = new PIR_Controller("192.168.1.10", 9010, 8010, 4);
+  controllers[0] = new PIR_Controller("192.168.1.17", 9017, 8017, 4);
   controllers[1] = new PIR_Controller("192.168.1.11", 9011, 8011, 4);
   controllers[2] = new PIR_Controller("192.168.1.12", 9012, 8012, 4);
   controllers[3] = new PIR_Controller("192.168.1.13", 9013, 8013, 4);
