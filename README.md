@@ -1,6 +1,6 @@
 # LightPath
 
-TECHNICAL PROJECT SETUP
+##TECHNICAL PROJECT SETUP
 
 
 Hardware wiring:
