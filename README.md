@@ -16,7 +16,7 @@ Sensor controllers --(UDP)--> Processing --(OSC)--> MaxMSP --(Syphon)--> MadMapp
 
 --------MAX/MSP SETUP------------
 
-Download CNMAT externals (OSC objects for MAX/MSP) og Syphon (for jitter) pakages:
+Download CNMAT externals (OSC objects for MAX/MSP) og Syphon (for jitter) packages:
 
 CNMAT: http://cnmat.berkeley.edu/downloads
 SYPHON: https://github.com/Syphon/Jitter/releases/
